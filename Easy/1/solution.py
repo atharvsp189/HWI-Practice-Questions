@@ -17,7 +17,7 @@ def calculate_query2_sum(A:list, queries:list[list]):
             r = q[2]
             for i in range(l, r+1):
                 sum += A[i]
-    return sum
+    return sum%(10**9+7)
 
 
 A = [1, 4, 5, 1, 6, 7, 8] 
